@@ -1,0 +1,38 @@
+<hr />
+<h2>title: Introduction</h2>
+<h1>Introduction</h1>
+<p><code>pymddoc</code>is a python package for creating markdown documents with embedded code snippets.</p>
+<p>Steps for creating a document:</p>
+<ol>
+<li>create a .py script that will contain code to generate the document</li>
+<li>create a <code>DocMaker</code> object by calling <code>Document</code> with desired templates and metadata</li>
+<li>add markdown using the <code>.markdown()</code> method</li>
+<li>add code snippets using the context manager returned by the <code>.snippet()</code> method</li>
+<li>render the document to markdown or html</li>
+</ol>
+<h3>Open a New Document</h3>
+<p>The first step in creating a document is to call the <code>Document</code> function, which returns a <code>DocMaker</code> object. This object will be used to create the document. This function takes a number of parameters for metadata, templates, and other configurations. See the API documentation for more details.</p>
+<p><code>python
+    import pymddoc
+    doc = pymddoc.Document(
+        title = 'My Document',
+        date = 'Nov 20, 2023',
+    )</code></p>
+<pre><code>## Markdown
+</code></pre>
+<p>We can insert <em>markdown</em> using the <code>.markdown()</code> method. Simply pass a string to the method and it will be inserted into the document directly.</p>
+<p>Note that this is <strong>standard markdown</strong>, so you may use any features supported by your <strong><em>markdown compiler</em></strong> (pandoc if you use the built-in html renderer).        </p>
+<p>Here I will define a new function and print the result.</p>
+<p>```python
+    doc.markdown('''
+    # example header</p>
+<pre><code>+ item 1
++ item 2
+
+| col 1 | col 2 |
+|-------|-------|
+| a     | b     |
+| c     | d     |
+''')
+</code></pre>
+<p>```</p>
