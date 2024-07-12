@@ -1,0 +1,62 @@
+import markdown
+
+def main():
+	html = markdown.markdown("""
+---
+title: Introduction
+---
+						  
+# Introduction
+
+`pymddoc`is a python package for creating markdown documents with embedded code snippets.
+
+Steps for creating a document:
+
+1. create a .py script that will contain code to generate the document
+2. create a `DocMaker` object by calling `Document` with desired templates and metadata
+3. add markdown using the `.markdown()` method
+4. add code snippets using the context manager returned by the `.snippet()` method
+5. render the document to markdown or html
+
+### Open a New Document
+
+The first step in creating a document is to call the `Document` function, which returns a `DocMaker` object. This object will be used to create the document. This function takes a number of parameters for metadata, templates, and other configurations. See the API documentation for more details.
+
+```
+	python
+    import pymddoc
+    doc = pymddoc.Document(
+        title = 'My Document',
+        date = 'Nov 20, 2023',
+    )
+```
+						  
+	## Markdown
+
+We can insert *markdown* using the `.markdown()` method. Simply pass a string to the method and it will be inserted into the document directly.
+
+Note that this is **standard markdown**, so you may use any features supported by your ***markdown compiler*** (pandoc if you use the built-in html renderer).        
+
+Here I will define a new function and print the result.
+
+
+```python
+    doc.markdown('''
+    # example header
+
+    + item 1
+    + item 2
+
+    | col 1 | col 2 |
+    |-------|-------|
+    | a     | b     |
+    | c     | d     |
+    ''')
+```
+"""
+)
+	return html
+
+if __name__ == '__main__':
+	html = main()
+	print(html)
