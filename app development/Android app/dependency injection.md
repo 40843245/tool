@@ -208,6 +208,44 @@ Hilt doesn't generate a component for broadcast receivers because Hilt injects b
 | View annotated with @WithFragment Bindings | ViewWithFragmentComponent| @ViewScoped |
 | Service	| ServiceComponent | @ServiceScoped |
 
+To learn more about Hilt component scopes, see [Scoping in Android and Hilt](https://medium.com/androiddevelopers/scoping-in-android-and-hilt-c2e5222317c0).
+
+##### Example
+
+```
+@ActivityScoped
+class AnalyticsAdapter @Inject constructor(
+  private val service: AnalyticsService
+) { ... }
+```
+
+##### [Scoping in Android](https://medium.com/androiddevelopers/scoping-in-android-and-hilt-c2e5222317c0)
+
+Here an example.
+
+```
+class ExampleActivity : AppCompatActivity() {
+  private val analyticsAdapter = AnalyticsAdapter()
+  ...
+}
+```
+
+is equivalent to
+
+```
+@ActivityScoped
+class AnalyticsAdapter @Inject constructor() { ... }
+@AndroidEntryPoint
+class ExampleActivity : AppCompatActivity() {
+  @Inject lateinit var analyticsAdapter: AnalyticsAdapter
+}
+```
+
+with Hilt.
+
+#### [Component hierarchy](https://developer.android.com/training/dependency-injection/hilt-android#component-hierarchy)
+
+![image](file:///C:/Users/40843/Downloads/hilt-hierarchy.svg)
 
 ## Comparison table
 
