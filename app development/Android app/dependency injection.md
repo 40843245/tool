@@ -66,6 +66,14 @@ object AnalyticsModule {
 #### [Provide multiple bindings for the same type](https://developer.android.com/training/dependency-injection/hilt-android#multiple-bindings)
 Consider the following example.
 
+If you need to intercept calls to `AnalyticsService`, you could use an `OkHttpClient` object with an interceptor. 
+
+For other services, you might need to intercept calls in a different way. 
+
+In that case, you need to tell Hilt how to provide two different implementations of `OkHttpClient`.
+
+1. First, define the qualifiers (i.e. class that with qualifier annotation) that you will use to annotate the `@Binds` or `@Provides` methods.
+
 ```
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
@@ -75,6 +83,84 @@ annotation class AuthInterceptorOkHttpClient
 @Retention(AnnotationRetention.BINARY)
 annotation class OtherInterceptorOkHttpClient
 ```
+
+2. Then, Hilt needs to know how to provide an instance of the type that corresponds with each qualifier.
+
+In this case, you could use a Hilt module with `@Provides`. Both methods have the same return type, but the qualifiers label them as two different bindings.
+
+```
+@Module
+@InstallIn(SingletonComponent::class)
+object NetworkModule {
+
+  @AuthInterceptorOkHttpClient
+  @Provides
+  fun provideAuthInterceptorOkHttpClient(
+    authInterceptor: AuthInterceptor
+  ): OkHttpClient {
+      return OkHttpClient.Builder()
+               .addInterceptor(authInterceptor)
+               .build()
+  }
+
+  @OtherInterceptorOkHttpClient
+  @Provides
+  fun provideOtherInterceptorOkHttpClient(
+    otherInterceptor: OtherInterceptor
+  ): OkHttpClient {
+      return OkHttpClient.Builder()
+               .addInterceptor(otherInterceptor)
+               .build()
+  }
+}
+```
+
+3. Next, you can inject the specific type that you need by annotating the field or parameter with the corresponding qualifier.
+
+```
+// As a dependency of another class.
+@Module
+@InstallIn(ActivityComponent::class)
+object AnalyticsModule {
+
+  @Provides
+  fun provideAnalyticsService(
+    @AuthInterceptorOkHttpClient okHttpClient: OkHttpClient
+  ): AnalyticsService {
+      return Retrofit.Builder()
+               .baseUrl("https://example.com")
+               .client(okHttpClient)
+               .build()
+               .create(AnalyticsService::class.java)
+  }
+}
+
+// As a dependency of a constructor-injected class.
+class ExampleServiceImpl @Inject constructor(
+  @AuthInterceptorOkHttpClient private val okHttpClient: OkHttpClient
+) : ...
+
+// At field injection.
+@AndroidEntryPoint
+class ExampleActivity: AppCompatActivity() {
+
+  @AuthInterceptorOkHttpClient
+  @Inject lateinit var okHttpClient: OkHttpClient
+}
+```
+
+#### [Predefined qualifiers in Hilt](https://developer.android.com/training/dependency-injection/hilt-android#predefined-qualifiers)
+Suppose that the `AnalyticsAdapter` class from the above example needs the context of the activity. The following code demonstrates how to provide the activity context to `AnalyticsAdapter`.
+
+```
+class AnalyticsAdapter @Inject constructor(
+    @ActivityContext private val context: Context,
+    private val service: AnalyticsService
+) { ... }
+```
+
+For more predefined bindings available in Hilt, see [Component default bindings](https://developer.android.com/training/dependency-injection/hilt-android#component-default)
+
 
 ## Comparison table
 
