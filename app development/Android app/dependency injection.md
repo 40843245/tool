@@ -10,3 +10,11 @@ Hilt is Jetpack's recommended library for dependency injection in Android. Hilt 
 Hilt is built on top of the popular DI library Dagger to benefit from the compile time correctness, runtime performance, scalability, and Android Studio support that Dagger provides.
 
 To learn more about Hilt, see [Dependency Injection with Hilt(Android Studio official docs)](https://developer.android.com/training/dependency-injection/hilt-android).
+
+### [Hilt Module](https://developer.android.com/training/dependency-injection/hilt-android#hilt-modules)
+A Hilt module is a class that is annotated with @Module
+
+## Comparison table
+
+| | Dagger module | Hilt module |
+| - | ----------- | ----------- |
