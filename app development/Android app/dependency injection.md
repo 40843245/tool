@@ -192,6 +192,9 @@ Hilt doesn't generate a component for broadcast receivers because Hilt injects b
 | ViewWithFragmentComponent	| View#super() | View destroyed |
 | ServiceComponent | Service#onCreate()	| Service#onDestroy() |
 
+**NOTES**
+
+`ActivityRetainedComponent` lives across configuration changes, so it is created at the first `Activity#onCreate()` and destroyed at the last `Activity#onDestroy()`.
 
 ## Comparison table
 
