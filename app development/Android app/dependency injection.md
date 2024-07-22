@@ -245,7 +245,26 @@ with Hilt.
 
 #### [Component hierarchy](https://developer.android.com/training/dependency-injection/hilt-android#component-hierarchy)
 
-[Hierarchy of the components that Hilt generates](https://github.com/40843245/tool/blob/main/app%20development/Android%20app/hilt-hierarchy.svg)
+See [Hierarchy of the components that Hilt generates](https://github.com/40843245/tool/blob/main/app%20development/Android%20app/hilt-hierarchy.svg)
+
+**NOTES** 
+
+By default, if you perform field injection in a view, `ViewComponent` can use bindings that are defined in the `ActivityComponent`. 
+
+If you also need to use bindings that are defined in `FragmentComponent` and the view is part of a fragment, use the `@WithFragmentBindings` annotation with `@AndroidEntryPoint`.
+
+#### [Component default bindings](https://developer.android.com/training/dependency-injection/hilt-android#component-default)
+
+| Android component	| Default bindings |
+| ----------------- | ---------------- |
+| SingletonComponent | Application |
+| ActivityRetainedComponent	| Application |
+| ViewModelComponent | SavedStateHandle |
+| ActivityComponent	| Application, Activity |
+| FragmentComponent	| Application, Activity, Fragment |
+| ViewComponent	| Application, Activity, View |
+| ViewWithFragmentComponent	| Application, Activity, Fragment, View |
+| ServiceComponent | Application, Service | 
 
 ## Comparison table
 
