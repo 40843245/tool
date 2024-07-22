@@ -175,6 +175,24 @@ Hilt provides the following components.
 | ViewWithFragmentComponent	| View annotated with @WithFragmentBindings |
 | ServiceComponent | Service |
 
+**NOTES**
+
+Hilt doesn't generate a component for broadcast receivers because Hilt injects broadcast receivers directly from `SingletonComponent`.
+
+#### [Component lifetimes](https://developer.android.com/training/dependency-injection/hilt-android#component-lifetimes)
+
+| Generated component	| Created at | Destroyed at |
+| ------------------- | ---------- | ------------ |
+| SingletonComponent | Application#onCreate()	| Application destroyed |
+| ActivityRetainedComponent	| Activity#onCreate()	| Activity#onDestroy() |
+| ViewModelComponent	| ViewModel created	| ViewModel destroyed |
+| ActivityComponent	| Activity#onCreate()	| Activity#onDestroy() |
+| FragmentComponent	| Fragment#onAttach()	| Fragment#onDestroy() |
+| ViewComponent	| View#super() | View destroyed |
+| ViewWithFragmentComponent	| View#super() | View destroyed |
+| ServiceComponent | Service#onCreate()	| Service#onDestroy() |
+
+
 ## Comparison table
 
 | Dagger module | Hilt module |
