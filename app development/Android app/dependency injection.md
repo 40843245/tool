@@ -17,12 +17,71 @@ To learn more about Hilt, see [Dependency Injection with Hilt(Android Studio off
 ### [Hilt Module](https://developer.android.com/training/dependency-injection/hilt-android#hilt-modules)
 A Hilt module is a class that is annotated with `@Module`.
 
+#### inject something with Hilt module
+###### [interface instance (with `@Binds`)](https://developer.android.com/training/dependency-injection/hilt-android#inject-interfaces)
+Consider the following example.
+
+```
+interface AnalyticsService {
+  fun analyticsMethods()
+}
+
+// Constructor-injected, because Hilt needs to know how to
+// provide instances of AnalyticsServiceImpl, too.
+class AnalyticsServiceImpl @Inject constructor(
+  ...
+) : AnalyticsService { ... }
+
+@Module
+@InstallIn(ActivityComponent::class)
+abstract class AnalyticsModule {
+
+  @Binds
+  abstract fun bindAnalyticsService(
+    analyticsServiceImpl: AnalyticsServiceImpl
+  ): AnalyticsService
+}
+```
+
+##### [Inject instances with `@Provides`](https://developer.android.com/training/dependency-injection/hilt-android#inject-provides)
+Consider the following example.
+
+```
+@Module
+@InstallIn(ActivityComponent::class)
+object AnalyticsModule {
+
+  @Provides
+  fun provideAnalyticsService(
+    // Potential dependencies of this type
+  ): AnalyticsService {
+      return Retrofit.Builder()
+               .baseUrl("https://example.com")
+               .build()
+               .create(AnalyticsService::class.java)
+  }
+}
+```
+
+#### [Provide multiple bindings for the same type](https://developer.android.com/training/dependency-injection/hilt-android#multiple-bindings)
+Consider the following example.
+
+```
+@Qualifier
+@Retention(AnnotationRetention.BINARY)
+annotation class AuthInterceptorOkHttpClient
+
+@Qualifier
+@Retention(AnnotationRetention.BINARY)
+annotation class OtherInterceptorOkHttpClient
+```
+
 ## Comparison table
 
-| | Dagger module | Hilt module |
-| - | ----------- | ----------- |
-|   |  it informs Hilt how to provide instances of certain types |  it informs Hilt how to provide instances of certain types |
-|   |  it is a class that is annotated with `@Module` | it is a class that is annotated with `@Module` |
-|   | one can define dependencies with the `@Provides` annotation | one must annotate with `@InstallIn` to tell Hilt which Android class each module will be used or installed in |
+| Dagger module | Hilt module |
+| ----------- | ----------- |
+|  it informs Hilt how to provide instances of certain types |  it informs Hilt how to provide instances of certain types |
+|  it is a class that is annotated with `@Module` | it is a class that is annotated with `@Module` |
+| one can define dependencies with the `@Provides` annotation | one must annotate with `@InstallIn` to tell Hilt which Android class each module will be used or installed in |
 
 
