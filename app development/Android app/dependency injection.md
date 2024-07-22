@@ -266,12 +266,46 @@ If you also need to use bindings that are defined in `FragmentComponent` and the
 | ViewWithFragmentComponent	| Application, Activity, Fragment, View |
 | ServiceComponent | Application, Service | 
 
+**EXTRA NOTES**
+
++ The application context binding is also available using @ApplicationContext.
++ The activity context binding is also available using @ActivityContext
+
+##### @ApplicationContext Example
+
+```
+class AnalyticsServiceImpl @Inject constructor(
+  @ApplicationContext context: Context
+) : AnalyticsService { ... }
+
+// The Application binding is available without qualifiers.
+class AnalyticsServiceImpl @Inject constructor(
+  application: Application
+) : AnalyticsService { ... }
+```
+
+##### @ActivityContext Example
+
+```
+class AnalyticsAdapter @Inject constructor(
+  @ActivityContext context: Context
+) { ... }
+
+// The Activity binding is available without qualifiers.
+class AnalyticsAdapter @Inject constructor(
+  activity: FragmentActivity
+) { ... }
+```
+
+
+
+
+
 ## Comparison table
+### Dagger module v.s. Hilt module
 
 | Dagger module | Hilt module |
 | ----------- | ----------- |
 |  it informs Hilt how to provide instances of certain types |  it informs Hilt how to provide instances of certain types |
 |  it is a class that is annotated with `@Module` | it is a class that is annotated with `@Module` |
 | one can define dependencies with the `@Provides` annotation | one must annotate with `@InstallIn` to tell Hilt which Android class each module will be used or installed in |
-
-
