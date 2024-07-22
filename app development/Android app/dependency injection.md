@@ -245,7 +245,7 @@ with Hilt.
 
 #### [Component hierarchy](https://developer.android.com/training/dependency-injection/hilt-android#component-hierarchy)
 
-![image](file:///C:/Users/40843/Downloads/hilt-hierarchy.svg)
+[Component hierarchy](https://github.com/40843245/tool/blob/main/app%20development/Android%20app/hilt-hierarchy.svg)
 
 ## Comparison table
 
