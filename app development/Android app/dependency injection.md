@@ -297,10 +297,6 @@ class AnalyticsAdapter @Inject constructor(
 ) { ... }
 ```
 
-
-
-
-
 ## Comparison table
 ### Dagger module v.s. Hilt module
 
