@@ -161,6 +161,19 @@ class AnalyticsAdapter @Inject constructor(
 
 For more predefined bindings available in Hilt, see [Component default bindings](https://developer.android.com/training/dependency-injection/hilt-android#component-default)
 
+### [Generated components for Android classes](https://developer.android.com/training/dependency-injection/hilt-android#generated-components)
+Hilt provides the following components.
+
+| Hilt component |	Injector for |
+| -------------- | ------------- |
+| SingletonComponent	| Application |
+| ActivityRetainedComponent	| N/A |
+| ViewModelComponent	| ViewModel |
+| ActivityComponent	| Activity |
+| FragmentComponent	| Fragment |
+| ViewComponent	| View |
+| ViewWithFragmentComponent	| View annotated with @WithFragmentBindings |
+| ServiceComponent | Service |
 
 ## Comparison table
 
