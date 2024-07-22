@@ -196,6 +196,19 @@ Hilt doesn't generate a component for broadcast receivers because Hilt injects b
 
 `ActivityRetainedComponent` lives across configuration changes, so it is created at the first `Activity#onCreate()` and destroyed at the last `Activity#onDestroy()`.
 
+#### [Component scopes](https://developer.android.com/training/dependency-injection/hilt-android#component-scopes)
+| Android class	| Generated component	| Scope |
+| ------------- | ------------------- | ----- |
+| Application	| SingletonComponent| @Singleton |
+| Activity | ActivityRetainedComponent | @ActivityRetainedScoped |
+| ViewModel | ViewModelComponent | @ViewModelScoped |
+| Activity | ActivityComponent | @ActivityScoped |
+| Fragment | FragmentComponent | @FragmentScoped |
+| View | ViewComponent | @ViewScoped |
+| View annotated with @WithFragment Bindings | ViewWithFragmentComponent| @ViewScoped |
+| Service	| ServiceComponent | @ServiceScoped |
+
+
 ## Comparison table
 
 | Dagger module | Hilt module |
