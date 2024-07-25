@@ -39,7 +39,7 @@
 | javierfernandes / markdown-exercises	| 1	| 2017/05/01 |	JS |	N/A	|⭐|
 | gatsby-remark-embed-snippet	| N/A (55k)	| 2024/01/23	| JS	| Gatsby	| ⭐|
 | ARMmbed / snippet (docs)	| 6 |	2021/08/05	| Python	| CLI	|⭐|
-| drewavis / markdowninclude	| 1 |	2024/04/06	| JS |	VSCode |  Extension	| ? |
+| drewavis / markdowninclude	| 1 |	2024/04/06	| JS |	VSCode  Extension	| ? |
 | romnn / embedme	| 0	| 2024/04/18	| Go |	N/A |	⭐|
 
 ## Ref
