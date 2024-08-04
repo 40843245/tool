@@ -4,6 +4,22 @@
 2. according to your system, click the link to download the installation app.
 3. click the installation app to install it.
 
+## Help
+### Open Obsidian online help
+
+To get Obsidian online help, either
++ visit [Obsidian online help](https://help.obsidian.md/Home)
++ Follow the step in `Open Obsidian online help in Obsidian` subsection.
+
+#### Open Obsidian online help in Obsidian
+1. Click `Help` button. Shown as follows.
+   
+![image](https://github.com/user-attachments/assets/442ed05f-2940-485f-98ab-8a6597c053fc)
+
+2. Click 'Visit' in the popup.
+
+For demo, see my YT video [Open Obsidian online official Docs in Obsidian](https://www.youtube.com/watch?v=nWD4c_KjNJU)
+
 ## Note
 ### Create a new note
 1. open Obsidian app.
