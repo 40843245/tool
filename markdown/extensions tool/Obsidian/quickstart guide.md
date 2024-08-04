@@ -68,6 +68,33 @@ For demo, see my YT video [Insert a template into a note in Obsidian](https://ww
 
 For demo, see my YT video [Create a unique note in Obsidian](https://www.youtube.com/watch?v=vbpwZ4CRxg4)
 
+### [Import notes](https://help.obsidian.md/import)
+#### [Import notes from Microsoft OneNote](https://help.obsidian.md/import/onenote)
+
+For demo, see my YT video [Import note from Microsoft OneNote in Obsidian](https://www.youtube.com/watch?v=K0kc_HRuVas)
+
+#### [Import notes from Notion in Obsidian](https://help.obsidian.md/import/notion)
+
+For demo, see my YT video [Import notes from Notion in Obsidian](https://www.youtube.com/watch?v=Q2jmBCWckJg)
+
+#### [Import notes from html file](https://help.obsidian.md/import/html)
+
+For demo, see my YT video [Import notes from html file in Obsidian](https://www.youtube.com/watch?v=qVgF6fsZAVU)
+
+#### [Import notes from markdown file](https://help.obsidian.md/import/markdown)
+
+For demo, see my YT video [Import notes from markdown file in Obsidian](https://www.youtube.com/watch?v=GCaH_kLeuOo)
+
+#### [Import notes from Roam Research](https://help.obsidian.md/import/roam)
+
+Since Roam Research is NOT free, I won't be able to demo it. Sorry for that.
+
+#### [Import notes from Zettelkasten](https://help.obsidian.md/import/zettelkasten)
+
+Since one has to create Zettelkasten notes with Zettelkasten method which I've NEVER heard before, I won't be able to demo it. Sorry for that.
+
+
+
 ## [Daily note](https://help.obsidian.md/Plugins/Daily+notes)
 ### [Open daily note](https://help.obsidian.md/Plugins/Daily+notes)
 
