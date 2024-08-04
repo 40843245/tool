@@ -4,17 +4,18 @@
 2. according to your system, click the link to download the installation app.
 3. click the installation app to install it.
 
-## Create a new note
+## Note
+### Create a new note
 1. open Obsidian app.
 2. create vault or open existing vault: select a folder to create vault.
 3. open a new file: On Windows, press `ctrl + N` to open a new file. On MacOS, press `Cmd +N` to open a new file.
 
-## Write a note
+### Write a note
 1. create a new note or open an existing note.
 2. copy the text into the note.
 
-## Delete a note
-### What happens if one deletes a note?
+### Delete a note
+#### What happens if one deletes a note?
 To see what happen if one deletes a note.
 1. select `Setting` -> `File & Link`.
 2. see an option in Deleted Files.
@@ -75,6 +76,19 @@ For demo, see my YT video [Pin a command from command palette in Obsidian](https
 ### [Unpin a command from command palette](https://help.obsidian.md/Plugins/Command+palette#Pin+a+command)
 
 For demo, see my YT video [Unpin a command from command palette in Obsidian](https://www.youtube.com/watch?v=7t-IioIFfBY)
+
+## [Daily note](https://help.obsidian.md/Plugins/Daily+notes)
+### [Open daily note](https://help.obsidian.md/Plugins/Daily+notes)
+
+For demo, see my YT video 
++ [How to open daily note in Obsidian way 1](https://www.youtube.com/watch?v=6PWp8_V4Urg)
++ [How to open daily note in Obsidian way 2](https://www.youtube.com/watch?v=ER2aBIZhYqw)
+
+### [Open daily notes from a template](https://help.obsidian.md/Plugins/Daily+notes#Create+a+daily+note+from+template)
+
+For demo, see my YT video [Open daily notes from a template in Obsidian - way 1](https://www.youtube.com/watch?v=9P1wFaGkXl8)
+
+
 
 ## Ref
 [Obsidian](https://help.obsidian.md/Home)
