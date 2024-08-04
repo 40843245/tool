@@ -36,10 +36,32 @@ There are three options when one deletes a note.
 
 ![image](https://github.com/user-attachments/assets/86955d81-0bb2-44aa-afdb-822dd2bceec5)
 
-### Create a random note
+### [Create a random note](https://help.obsidian.md/Plugins/Random+note)
 
 For demo, see my YT video [Create a random note in Obsidian - way 1](https://www.youtube.com/watch?v=TYst3sHbZ4k)
 
+### [Create a unique note](https://help.obsidian.md/Plugins/Unique+note+creator#Create+a+unique+note)
+
+For demo, see my YT video [Create a unique note in Obsidian](https://www.youtube.com/watch?v=vbpwZ4CRxg4)
+
+### [Insert a template into a note in Obsidian](https://help.obsidian.md/Plugins/Templates#Insert+a+template+into+the+active+note)
+
+For demo, see my YT video [Insert a template into a note in Obsidian](https://www.youtube.com/watch?v=XVVc9i0o-7E)
+
+### [Create a unique note from a template](https://help.obsidian.md/Plugins/Unique+note+creator#Create+unique+notes+from+a+template)
+
+For demo, see my YT video [Create a unique note in Obsidian](https://www.youtube.com/watch?v=vbpwZ4CRxg4)
+
+## [Daily note](https://help.obsidian.md/Plugins/Daily+notes)
+### [Open daily note](https://help.obsidian.md/Plugins/Daily+notes)
+
+For demo, see my YT video 
++ [How to open daily note in Obsidian way 1](https://www.youtube.com/watch?v=6PWp8_V4Urg)
++ [How to open daily note in Obsidian way 2](https://www.youtube.com/watch?v=ER2aBIZhYqw)
+
+### [Open daily notes from a template](https://help.obsidian.md/Plugins/Daily+notes#Create+a+daily+note+from+template)
+
+For demo, see my YT video [Open daily notes from a template in Obsidian - way 1](https://www.youtube.com/watch?v=9P1wFaGkXl8)
 
 ## Canvas
 ### [Create a new canvas](https://help.obsidian.md/Plugins/Canvas#Create+a+new+canvas)
@@ -59,7 +81,6 @@ For demo, see my YT video
 For demo, see my YT video 
 
 + [Add a note in canvas in Obsidian - way 1](https://www.youtube.com/watch?v=icUG3swlkfI)
-
 
 ### [add other file in a canvas](https://help.obsidian.md/Plugins/Canvas#Add+cards+from+notes)
 
@@ -82,22 +103,18 @@ For demo, see my YT video [Pin a command from command palette in Obsidian](https
 
 For demo, see my YT video [Unpin a command from command palette in Obsidian](https://www.youtube.com/watch?v=7t-IioIFfBY)
 
-## [Daily note](https://help.obsidian.md/Plugins/Daily+notes)
-### [Open daily note](https://help.obsidian.md/Plugins/Daily+notes)
+## [Template](https://help.obsidian.md/Plugins/Templates)
+### [Template variables](https://help.obsidian.md/Plugins/Templates#Template+variables)
+For a list of available template variables, see a table from [Template variables](https://help.obsidian.md/Plugins/Templates#Template+variables).
 
-For demo, see my YT video 
-+ [How to open daily note in Obsidian way 1](https://www.youtube.com/watch?v=6PWp8_V4Urg)
-+ [How to open daily note in Obsidian way 2](https://www.youtube.com/watch?v=ER2aBIZhYqw)
+### [Insert a template into the active note](https://help.obsidian.md/Plugins/Templates#Insert+a+template+into+the+active+note)
+See `Insert a template into a note in Obsidian` subsection under `Notes` section.
 
 ### [Open daily notes from a template](https://help.obsidian.md/Plugins/Daily+notes#Create+a+daily+note+from+template)
-
-For demo, see my YT video [Open daily notes from a template in Obsidian - way 1](https://www.youtube.com/watch?v=9P1wFaGkXl8)
-
+See `Open daily notes from a template` subsection under `Notes` section.
 
 
 ## Ref
 [Obsidian](https://help.obsidian.md/Home)
 
-See [syntax in Obsidian (My notes at Github)](https://github.com/40843245/markdown-tutorial/blob/main/Obsidian/full%20guide.md)
-
-
+About syntax in Obsidian, see [syntax in Obsidian (My notes at Github)](https://github.com/40843245/markdown-tutorial/blob/main/Obsidian/full%20guide.md)
