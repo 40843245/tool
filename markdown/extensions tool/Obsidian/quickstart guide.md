@@ -35,11 +35,33 @@ There are three options when one deletes a note.
 
 ![image](https://github.com/user-attachments/assets/86955d81-0bb2-44aa-afdb-822dd2bceec5)
 
+## Canvas
+### [Create a new canvas](https://help.obsidian.md/Plugins/Canvas#Create+a+new+canvas)
+
+For demo, see my YT video 
++ [Create a new canvas in Obsidian - way 1](https://www.youtube.com/watch?v=BNvVywCcogo)
++ [Create a new canvas in Obsidian - way 2](https://www.youtube.com/watch?v=Nk-E8qiYins)
++ [Create a new canvas in Obsidian - way 3](https://www.youtube.com/watch?v=86vp_yw6fac)
+
+### [Add a card in canvas](https://help.obsidian.md/Plugins/Canvas#Adding+cards)
+
+For demo, see my YT video 
++ [Add cards in canvas in Obsidian - way 1](https://www.youtube.com/watch?v=9X8mniDDtqw)
+
+### Add a note in canvas
+
+For demo, see my YT video 
+
++ [Add a note in canvas in Obsidian - way 1](https://www.youtube.com/watch?v=icUG3swlkfI)
 
 
-   
-## Syntax 
+### add other file in a canvas
+
+
+For demo,s ee
+\## Ref
+[Obsidian](https://help.obsidian.md/Home)
+
 See [syntax in Obsidian (My notes at Github)](https://github.com/40843245/markdown-tutorial/blob/main/Obsidian/full%20guide.md)
 
-## Ref
-[Obsidian](https://help.obsidian.md/Home)
+
