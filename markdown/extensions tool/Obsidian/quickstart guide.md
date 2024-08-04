@@ -36,6 +36,11 @@ There are three options when one deletes a note.
 
 ![image](https://github.com/user-attachments/assets/86955d81-0bb2-44aa-afdb-822dd2bceec5)
 
+### Create a random note
+
+For demo, see my YT video [Create a random note in Obsidian - way 1](https://www.youtube.com/watch?v=TYst3sHbZ4k)
+
+
 ## Canvas
 ### [Create a new canvas](https://help.obsidian.md/Plugins/Canvas#Create+a+new+canvas)
 
