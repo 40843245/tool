@@ -55,7 +55,7 @@ For demo, see my YT video
 + [Add a note in canvas in Obsidian - way 1](https://www.youtube.com/watch?v=icUG3swlkfI)
 
 
-### add other file in a canvas
+### [add other file in a canvas](https://help.obsidian.md/Plugins/Canvas#Add+cards+from+notes)
 
 For demo, see my YT video [Add other file in canvas in Obsidian - way 1](https://www.youtube.com/watch?v=e9tF5P46hes)
 
@@ -63,10 +63,18 @@ For demo, see my YT video [Add other file in canvas in Obsidian - way 1](https:/
 
 For demo, see my YT video [connect two notes in Obsidian way 1](https://www.youtube.com/watch?v=2oQt21YCa9o)
 
-### [disconnect two cards]
+### [disconnect two cards](https://help.obsidian.md/Plugins/Canvas#Disconnect+two+cards)
 
 For demo, see my YT video [disconnect two cards in Obsidian way 1](https://www.youtube.com/watch?v=hMkjIaLgM44)
 
+## Command palette
+### [Pin a command from command palette](https://help.obsidian.md/Plugins/Command+palette#Pin+a+command)
+ 
+For demo, see my YT video [Pin a command from command palette in Obsidian](https://www.youtube.com/watch?v=J2nVq8e5uhU)
+
+### [Unpin a command from command palette](https://help.obsidian.md/Plugins/Command+palette#Pin+a+command)
+
+For demo, see my YT video [Unpin a command from command palette in Obsidian](https://www.youtube.com/watch?v=7t-IioIFfBY)
 
 ## Ref
 [Obsidian](https://help.obsidian.md/Home)
