@@ -57,9 +57,18 @@ For demo, see my YT video
 
 ### add other file in a canvas
 
+For demo, see my YT video [Add other file in canvas in Obsidian - way 1](https://www.youtube.com/watch?v=e9tF5P46hes)
 
-For demo,s ee
-\## Ref
+### [connect two cards](https://help.obsidian.md/Plugins/Canvas#Connecting+cards)
+
+For demo, see my YT video [connect two notes in Obsidian way 1](https://www.youtube.com/watch?v=2oQt21YCa9o)
+
+### [disconnect two cards]
+
+For demo, see my YT video [disconnect two cards in Obsidian way 1](https://www.youtube.com/watch?v=hMkjIaLgM44)
+
+
+## Ref
 [Obsidian](https://help.obsidian.md/Home)
 
 See [syntax in Obsidian (My notes at Github)](https://github.com/40843245/markdown-tutorial/blob/main/Obsidian/full%20guide.md)
