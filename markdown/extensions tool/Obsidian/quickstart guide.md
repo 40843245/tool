@@ -11,9 +11,19 @@ To get Obsidian online help, either
 + visit [Obsidian online help](https://help.obsidian.md/Home)
 + Follow the step in `Open Obsidian online help in Obsidian` subsection.
 
+#### Open Obsidian online help in Obsidian
+1. Click `Help` button. Shown as follows.
+   
+![image](https://github.com/user-attachments/assets/442ed05f-2940-485f-98ab-8a6597c053fc)
+
+2. Click 'Visit' in the popup.
+
+For demo, see my YT video [Open Obsidian online official Docs in Obsidian](https://www.youtube.com/watch?v=nWD4c_KjNJU)
 ## [Update Obsidian](https://help.obsidian.md/Getting+started/Update+Obsidian#Installer+updates)
 ### [Check for an update and the current version](https://help.obsidian.md/Getting+started/Update+Obsidian#Check+for+an+update+and+the+current+version)
 1. Open Settings → General.
+
+For demo, see my YT video [Check for updates in Obsidian](https://www.youtube.com/watch?v=jUt_CqY8bj0)
 
 ### [Disable automatic updates](https://help.obsidian.md/Getting+started/Update+Obsidian#Disable+automatic+updates)
 If you prefer to update Obsidian manually, you can disable automatic updates.
@@ -30,16 +40,19 @@ To update Obsidian when an installer update is required:
 4. Run the installation process as directed in Download and install Obsidian.
 5. Your installer update is now complete. You may now reopen Obsidian.
 
+## [Language]
+### Set language
+## [Hotkeys](https://help.obsidian.md/User+interface/Hotkeys)
+### [View hotkeys](https://help.obsidian.md/User+interface/Hotkeys#Viewing+hotkeys)
+The fastest way to see the hotkey set for a command is to find the command in Command palette. If there's a hotkey listed for that command, it's set.
 
-#### Open Obsidian online help in Obsidian
-1. Click `Help` button. Shown as follows.
-   
-![image](https://github.com/user-attachments/assets/442ed05f-2940-485f-98ab-8a6597c053fc)
+### [Set hotkeys](https://help.obsidian.md/User+interface/Hotkeys#Setting+hotkeys)
+1. Select `Setting` -> `hotkey`.
+2. Find the action you want.
+3. Click `add` icon.
+4. Press the keyboard.
 
-2. Click 'Visit' in the popup.
-
-For demo, see my YT video [Open Obsidian online official Docs in Obsidian](https://www.youtube.com/watch?v=nWD4c_KjNJU)
-
+For demo how to set hotkey of `add alias` as `ctrl +Z` in Obsidian, see my YT video [Set hotkey in Obsidian](https://youtu.be/bN39VkjuybU)
 ## Note
 ### Create a new note
 1. open Obsidian app.
