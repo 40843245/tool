@@ -306,6 +306,13 @@ where
 
 `action` parameter is the action that you would like to perform.
 
+> [!IMPORTANT]
+> About encoding, the special character must be encoded with [Percent-encoding](Percent-encoding). (It's like special character must be espaced.)
+> Ensure that your values are properly URI encoded.
+> Some example of [Percent-encoding](Percent-encoding),
+> + forward slash characters `/` must be encoded as `%2F`
+> + space characters `/` must be encoded as `%20`.
+
 ### [Register Obsidian URI](https://help.obsidian.md/Extending+Obsidian/Obsidian+URI#Register+Obsidian+URI)
 + On Windows and macOS, running the app once should be sufficient to register the Obsidian URI protocol on your computer.
 
