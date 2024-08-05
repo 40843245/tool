@@ -19,6 +19,30 @@ To get Obsidian online help, either
 2. Click 'Visit' in the popup.
 
 For demo, see my YT video [Open Obsidian online official Docs in Obsidian](https://www.youtube.com/watch?v=nWD4c_KjNJU)
+
+### Community channels
+If you have a question about how to use Obsidian, or want to get to know other Obsidian users, you can join one of our community channels:
+
++ [Explore the Sandbox vault](https://help.obsidian.md/Getting+started/Sandbox+vault)
++ [Join our Discord server](https://discord.com/invite/obsidianmd)
++ [Visit the forum](https://forum.obsidian.md/)
+
+## Support
+### [Bugs](https://help.obsidian.md/Help+and+support#Report+bugs+and+request+features)
+#### Report bugs
+If one want to report bugs, please 
+1. collect debug information.
+2. head over [bug reports in Obsidian](https://forum.obsidian.md/c/bug-reports/7) and report bugs.
+   
+#### Unresolved bugs
+If one want to find ***unresolved bugs***, please head over [bug reports in Obsidian](https://forum.obsidian.md/c/bug-reports/7)
+
+#### Resolved bugs
+If one want to find ***resolved bugs***, please head over [bug graveyard in Obsidian](https://forum.obsidian.md/c/bug-graveyard/12)
+
+##
+
+
 ## [Update Obsidian](https://help.obsidian.md/Getting+started/Update+Obsidian#Installer+updates)
 ### [Check for an update and the current version](https://help.obsidian.md/Getting+started/Update+Obsidian#Check+for+an+update+and+the+current+version)
 1. Open Settings → General.
