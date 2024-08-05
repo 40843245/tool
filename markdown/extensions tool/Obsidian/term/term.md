@@ -91,3 +91,4 @@ A remote vault is a copy of your local vault that is maintained with Obsidian Sy
 
 ### View
 A view displays information, for example the Search view.
+
