@@ -156,7 +156,14 @@ See `Insert a template into a note in Obsidian` subsection under `Notes` section
 ### [Open daily notes from a template](https://help.obsidian.md/Plugins/Daily+notes#Create+a+daily+note+from+template)
 See `Open daily notes from a template` subsection under `Notes` section.
 
+## [Slides](https://help.obsidian.md/Plugins/Slides)
+### Syntax
+Any markdown language in Obsidian. In addition, `---` to seperate slides.
 
+### [Represent a note as a slides]()
+Either:
++ Right-click the tab of a note and click `Start presentation`
++ Type `Start presentation` on command palette.
 ## Ref
 [Obsidian](https://help.obsidian.md/Home)
 
