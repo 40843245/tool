@@ -11,6 +11,26 @@ To get Obsidian online help, either
 + visit [Obsidian online help](https://help.obsidian.md/Home)
 + Follow the step in `Open Obsidian online help in Obsidian` subsection.
 
+## [Update Obsidian](https://help.obsidian.md/Getting+started/Update+Obsidian#Installer+updates)
+### [Check for an update and the current version](https://help.obsidian.md/Getting+started/Update+Obsidian#Check+for+an+update+and+the+current+version)
+1. Open Settings → General.
+
+### [Disable automatic updates](https://help.obsidian.md/Getting+started/Update+Obsidian#Disable+automatic+updates)
+If you prefer to update Obsidian manually, you can disable automatic updates.
+
+1. Open Settings → General.
+2. Disable Automatic updates.
+   
+### [Installer updates](https://help.obsidian.md/Getting+started/Update+Obsidian#Installer+updates)
+To update Obsidian when an installer update is required:
+
+1. Navigate to https://obsidian.md/download.
+2. Download the installer onto your system.
+3. If Obsidian is open, completely close it.
+4. Run the installation process as directed in Download and install Obsidian.
+5. Your installer update is now complete. You may now reopen Obsidian.
+
+
 #### Open Obsidian online help in Obsidian
 1. Click `Help` button. Shown as follows.
    
