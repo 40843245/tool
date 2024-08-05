@@ -4,7 +4,7 @@
 2. according to your system, click the link to download the installation app.
 3. click the installation app to install it.
 
-## Help
+## Get Help
 ### Open Obsidian online help
 
 To get Obsidian online help, either
@@ -288,6 +288,33 @@ For example, `.obsidian-awesome`. Relaunch Obsidian to have the changes take eff
 > Any settings within your configuration folder will not transfer to your new config folder.
 > However, your prior configuration folder will remain within your vault folder.
 
+## [Obsidian URI]
+### Intro
+
+> [!TIP]
+> Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions.
+> Such as opening a note or creating a note.
+
+
+Obsidian URIs are typically in this format:
+
+```
+obsidian://action?param1=value&param2=value
+```
+
+where 
+
+`action` parameter is the action that you would like to perform.
+
+### [Register Obsidian URI](https://help.obsidian.md/Extending+Obsidian/Obsidian+URI#Register+Obsidian+URI)
++ On Windows and macOS, running the app once should be sufficient to register the Obsidian URI protocol on your computer.
+
++ On Linux, it is a much more involved process:
+
+Ensure you create a obsidian.desktop file. See here for details.
+Ensure that your desktop file specifies the Exec field as Exec=executable %u. The %u is used to pass the obsidian:// URIs to the app.
+If you're using the AppImage installer, you may have to unpack it using Obsidian-x.y.z.AppImage --appimage-extract. Then make sure the Exec directive points to the unpacked executable.
+
 ## Sync
 ### [Set up Obsidian Sync](https://help.obsidian.md/Obsidian+Sync/Set+up+Obsidian+Sync)
 #### [Prequisite](https://help.obsidian.md/Obsidian+Sync/Set+up+Obsidian+Sync#Prerequisites)
@@ -390,7 +417,7 @@ For demo, see my YT video
 + [Log in your account in Obsidian](https://www.youtube.com/watch?v=35zlks4tOsY)
 + [Enable sync in Obsidian](https://www.youtube.com/watch?v=8O3eLSQOUYo)
 + [Create a remote vault in Obsidian](https://www.youtube.com/watch?v=CX7Te_F5L00)
-
+  
 ## Ref
 [Obsidian](https://help.obsidian.md/Home)
 
