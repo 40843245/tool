@@ -31,8 +31,12 @@ If you have a question about how to use Obsidian, or want to get to know other O
 ### [Bugs](https://help.obsidian.md/Help+and+support#Report+bugs+and+request+features)
 #### Report bugs
 If one want to report bugs, please 
-1. collect debug information.
-2. head over [bug reports in Obsidian](https://forum.obsidian.md/c/bug-reports/7) and report bugs.
+1. collect debug information. (See `Information in Obsidian` -> `Debug information`-> `Collect debug information` section.)
+2. collect errors in developer console and save it as an error log file. (See `Information in Obsidian` -> `Console logs` -> `Capture errors from console logs in developer console in Obsidian` section.)
+3. head over [bug reports in Obsidian](https://forum.obsidian.md/c/bug-reports/7)
+4. paste the debug information (Information collected in step 1).
+5. attach the error log file (File saved in step 2).
+6. Submit to report bugs.
    
 #### Unresolved bugs
 If one want to find ***unresolved bugs***, please head over [bug reports in Obsidian](https://forum.obsidian.md/c/bug-reports/7)
@@ -40,8 +44,36 @@ If one want to find ***unresolved bugs***, please head over [bug reports in Obsi
 #### Resolved bugs
 If one want to find ***resolved bugs***, please head over [bug graveyard in Obsidian](https://forum.obsidian.md/c/bug-graveyard/12)
 
-##
+## Information in Obsidian
+### Debug information
+#### [Collect debug information](https://help.obsidian.md/Help+and+support#Report+bugs+and+request+features)
+1. Open the `Command palette`.
+2. Type `Show debug info`.
+3. Select the highlighted `Show debug info` option.
+4. Click `Copy to clipboard` button.
 
+For demo, see my YT video [Collect debug information in Obsidian](https://www.youtube.com/watch?v=5ih-U4m52MI)
+
+### Console logs
+
+> [!CAUTION]
+> Mobile devices and tablets have limited access to their developer consoles.
+> For these users, we recommend using the community plugin `Logstravaganza` to automatically generate the console log data in a markdown note.
+
+#### [Capture errors from console logs in developer console in Obsidian](https://help.obsidian.md/Help+and+support#Capture+console+logs)
+1. Open `developer console` in Obsidian by keyboard shortcuts. As same as opening `developer console` in `Microsoft edge`.
+
+Keyboard shortcuts to open `developer console` in Obsidian.
+
++ Windows: `CTRL` + `SHIFT` + `i`
++ MacOS: `CMD` + `OPTION` + `i`
++ Linux: `CTRL` + `SHIFT` + `i`
+
+2. Select on console in the top menu.
+3. Choose the `errors` side menu option. Any errors will be displayed as `# errors`.
+4. Select one of the red `error messages`.
+5. Choose the option to Save as... This will save all the errors in the console.
+Save the log file to your device.
 
 ## [Update Obsidian](https://help.obsidian.md/Getting+started/Update+Obsidian#Installer+updates)
 ### [Check for an update and the current version](https://help.obsidian.md/Getting+started/Update+Obsidian#Check+for+an+update+and+the+current+version)
