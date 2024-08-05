@@ -182,8 +182,6 @@ Since Roam Research is NOT free, I won't be able to demo it. Sorry for that.
 
 Since one has to create Zettelkasten notes with Zettelkasten method which I've NEVER heard before, I won't be able to demo it. Sorry for that.
 
-
-
 ## [Daily note](https://help.obsidian.md/Plugins/Daily+notes)
 ### [Open daily note](https://help.obsidian.md/Plugins/Daily+notes)
 
@@ -249,10 +247,19 @@ See `Open daily notes from a template` subsection under `Notes` section.
 ### Syntax
 Any markdown language in Obsidian. In addition, `---` to seperate slides.
 
-### [Represent a note as a slides]()
+### [Represent a note as a slides](https://help.obsidian.md/Plugins/Slides)
 Either:
 + Right-click the tab of a note and click `Start presentation`
 + Type `Start presentation` on command palette.
+
+## [Symbolic links and junctions](https://help.obsidian.md/Files+and+folders/Symbolic+links+and+junctions)
+You can use symbolic links (symlinks) and junctions in your vault to store files outside the vault and system folder.
+
+> [!CAUTION]
+> Use at your own risk.
+> We strongly advise against using symbolic links.
+> By using symbolic links and junctions in your vault, you risk losing or corrupting your data, or crashing Obsidian.
+> Make sure you perform regular back-ups of your vault and settings.
 ## Ref
 [Obsidian](https://help.obsidian.md/Home)
 
