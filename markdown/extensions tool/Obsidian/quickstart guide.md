@@ -378,9 +378,18 @@ Deleting a remote vault will not delete your local data on your device.
 1. Open **Settings**.
 2. In the sidebar, select **Sync**.
 3. Select **Manage** next to Remote vaults. A window will open with your list of remote vaults.
-4. Select the trash can icon ( ![lucide-trash-2.svg > icon](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/icons/lucide-trash-2.svg) ) next to the remote vault you want to delete.
+4. Select the `trash can` icon next to the remote vault you want to delete.
 5. Confirm the deletion by selecting the red **Delete** button.
 6. Your remote vault has been deleted.
+
+#### **Demo**
+> [!CAUTION]
+> Since it is NOT in free plan, I won't be able to do a full demo.
+
+For demo, see my YT video
++ [Log in your account in Obsidian](https://www.youtube.com/watch?v=35zlks4tOsY)
++ [Enable sync in Obsidian](https://www.youtube.com/watch?v=8O3eLSQOUYo)
++ [Create a remote vault in Obsidian](https://www.youtube.com/watch?v=CX7Te_F5L00)
 
 ## Ref
 [Obsidian](https://help.obsidian.md/Home)
