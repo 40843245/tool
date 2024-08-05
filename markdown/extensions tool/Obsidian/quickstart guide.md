@@ -270,6 +270,118 @@ You can use symbolic links (symlinks) and junctions in your vault to store files
 > + File symlinks (as opposed to folder symlinks) may work, but aren't officially supported at this time. Changes performed outside of Obsidian aren't watched for, so if you change the file directly, Obsidian won't detect the change, update search indexes, etc.
 > + Symlinking things under the .obsidian/ folder in order to share them between vaults has a high chance of corrupting your settings, unless you really know what you're doing. If you decide to go this way, at least have backups.
 
+## Configuration
+### [Configuration folder](https://help.obsidian.md/Files+and+folders/Configuration+folder)
+Obsidian's configuration folder contains all the settings files pertaining to your vault.
+
+By default, your configuration folder is named .obsidian and placed in the vault folder. When using a syncing service, or if you wish to test different profiles in the same vault, you may want to change your config folder.
+
+#### [Changing configuration folder](https://help.obsidian.md/Files+and+folders/Configuration+folder#Changing+your+configuration+folder)
+To set your config folder:
+
+1. Open Settings -> Files and Links.
+2. In Override config folder, type the name of your profile, starting with a period (.).
+
+For example, `.obsidian-awesome`. Relaunch Obsidian to have the changes take effect.
+
+> [!NOTE]
+> Any settings within your configuration folder will not transfer to your new config folder.
+> However, your prior configuration folder will remain within your vault folder.
+
+## Sync
+### [Set up Obsidian Sync](https://help.obsidian.md/Obsidian+Sync/Set+up+Obsidian+Sync)
+#### [Prequisite](https://help.obsidian.md/Obsidian+Sync/Set+up+Obsidian+Sync#Prerequisites)
++ An Obsidian account. If you don't have one, sign up now.
++ An active Obsidian Sync subscription. If you don't have one, subscribe from your account dashboard.
++ Sync enabled within the Core plugins settings.
+
+#### CAUTION
+> [!CAUTION]
+> Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? Please read [Can I use a third-party sync with Obsidian Sync?](https://help.obsidian.md/Obsidian+Sync/Sync+limitations#Can+I+use+a+third-party+sync+with+Obsidian+Sync%3F) before proceeding.
+
+#### Step
+To set up Obsidian Sync, follow these steps.
+
+1. Log in with your Obsidian account.
+2. Enable Obsidian Sync.
+3. Create a new remote vault.
+4. Connect to a remote vault.
+
+To unsync, follow these steps.
+
+1. Disconnect from a remote vault.
+2. Delete a remote vault.
+
+## Log in with your Obsidian account
+
+1. Open **Settings**.
+2. In the sidebar, select **General**.
+3. Under **Account → Your Account**, select **Log in**.
+4. In **Email**, enter your email.
+5. In **Password**, enter your password.
+6. Select **Login**.
+
+## Enable Obsidian Sync
+
+1. Open **Settings**.
+2. In the sidebar, select **Core plugins**.
+3. Enable **Sync**.
+
+## Create a new remote vault
+
+1. Open **Settings**.
+2. In the sidebar, select **Sync**.
+3. Next to **Remote vault**, select **Choose**.
+4. Select **Create new vault**.
+5. In **Vault name**, enter the name of the remote vault.
+6. In **Region**, choose your server [region](https://help.obsidian.md/Obsidian+Sync/Set+up+Obsidian+Sync#Regional%20sync%20servers) for your remote vault.
+7. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [Security and privacy](https://help.obsidian.md/Obsidian+Sync/Security+and+privacy).
+8. Select **Create**.
+
+## Connect to a remote vault
+
+1. Select **Connect** next to your newly created vault.
+2. Enter the password you configured for the vault in the **Encryption password** field if you opted into [end-to-end encryption](https://help.obsidian.md/Obsidian+Sync/Security+and+privacy#What%20does%20end-to-end%20encryption%20mean?).
+3. Select **Unlock vault**.
+4. **Do not start syncing yet.** Check your sync settings in [adjust Obsidian Sync settings](https://help.obsidian.md/Obsidian+Sync/Set+up+Obsidian+Sync#Adjust%20Obsidian%20Sync%20settings).
+    - If you wish to start syncing immediately, move onto [begin syncing with Obsidian Sync](https://help.obsidian.md/Obsidian+Sync/Set+up+Obsidian+Sync#Begin%20syncing%20with%20Obsidian%20Sync).
+5. If you haven't already, close or dismiss the pop-up window prompting you to **Exclude Folders** and **Start Syncing**. Proceed to the next step.
+
+#### Adjust Obsidian Sync settings
+
+1. Navigate to **Settings** → **Sync** if needed.
+2. Toggle the settings under **Selective Sync** and **Vault configuration sync** to indicate which items should be synced to and from the remote vault.
+    - **Note**: If you recently disconnected from a remote vault and are reconnecting without an application restart, some settings may already be toggled on.
+3. If you make changes to any settings, restart Obsidian completely.
+4. Once Obsidian is restarted, return to **Settings** → **Sync**.
+
+Add a device name to make reading your Sync logs easier!
+
+#### Begin syncing with Obsidian Sync
+
+If you are beginning syncing after connecting to a remote vault, you will see a **Start Syncing** button. Select this button to begin syncing.
+
+If you are beginning syncing after adjusting Obsidian Sync's settings and restarting the application, you will see a **Resume** button within Sync's settings. Select this button to begin syncing.
+
+## Disconnect from a remote vault
+
+1. Open Obsidian's **Settings**.
+2. Select **Sync** in the sidebar.
+3. Click the **Disconnect** button next to Remote vaults.
+
+You are now disconnected from the remote vault and are no longer syncing on this device.
+
+## Delete a remote vault
+
+Deleting a remote vault will not delete your local data on your device.
+
+1. Open **Settings**.
+2. In the sidebar, select **Sync**.
+3. Select **Manage** next to Remote vaults. A window will open with your list of remote vaults.
+4. Select the trash can icon ( ![lucide-trash-2.svg > icon](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/icons/lucide-trash-2.svg) ) next to the remote vault you want to delete.
+5. Confirm the deletion by selecting the red **Delete** button.
+6. Your remote vault has been deleted.
+
 ## Ref
 [Obsidian](https://help.obsidian.md/Home)
 
