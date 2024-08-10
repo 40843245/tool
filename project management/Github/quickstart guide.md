@@ -30,6 +30,7 @@ After login your account.
 6. For safety, enter the `{USERNAME}/{RepoName}` to confirm (DON't worry the popup will ask you to enter the text. You don't have to remember the format `{USERNAME}/{RepoName}`). Then click `Delete this repository` button.
 7. That's done.
 
-![image](https://github.com/user-attachments/assets/fd7f0163-be48-45cd-8efb-9bb6819dce87)
+![Screenshot 2024-08-10 111048](https://github.com/user-attachments/assets/8a29c14c-4e33-4534-a8ad-ccfba6e48023)
+
 
 
