@@ -8,7 +8,7 @@
 You can set 
 + your profile
 + your configuration for safety login. (Such as `2FA`).
-etc
++ etc
 
 ## Repo
 ### Create a new repo
@@ -23,5 +23,13 @@ After login your account.
 ### Delete a existing repo
 
 1. Select the repo.
-2. Go to setting.
-3. Select 
+2. Go to `Settings`.
+3. Select `General` on the left of menu bar.
+4. Scroll down to the `Danger Zone`.
+5. Click `Delete this repository` button.
+6. For safety, enter the `{USERNAME}/{RepoName}` to confirm (DON't worry the popup will ask you to enter the text. You don't have to remember the format `{USERNAME}/{RepoName}`). Then click `Delete this repository` button.
+7. That's done.
+
+![image](https://github.com/user-attachments/assets/fd7f0163-be48-45cd-8efb-9bb6819dce87)
+
+
