@@ -18,7 +18,21 @@ After login your account.
 2. Select `Your repositories`.
 3. Click `New` button.
 4. Fill in the required information.
-5. Ciick `ok` button.
+5. Ciick `Create repository` button.
+
+![CreateRepo](https://github.com/user-attachments/assets/d2122477-2438-4fa7-824c-885e3fda3a59)
+
+![image](https://github.com/user-attachments/assets/c7ff6ad2-4c3e-497a-b9f3-cd5345ca9e99)
+
+
+### Select the repo
+1. Click the account icon on the right top.
+2. Select `Your repositories`.
+3. On the search box, type your repo name as `search query`.
+4. Click the repo name on the result list.
+
+![SearchRepo](https://github.com/user-attachments/assets/dbfb810f-9711-4ede-9c94-c2b1cf4b4e17)
+
 
 ### Delete a existing repo
 
