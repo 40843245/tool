@@ -66,6 +66,8 @@ yarn set version from sources
 >
 > it will need to store the yarn binary inside the `.yarn/releases` folder and reference it from your project's `.yarnrc.yml` file.
 
+## commands
+See [CLI commands in yarn](https://yarnpkg.com/cli)
 
 [^1]: [`Corepack`](https://yarnpkg.com/corepack)
 
