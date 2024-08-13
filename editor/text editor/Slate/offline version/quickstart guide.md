@@ -145,3 +145,52 @@ const App = () => {
 
 You can see a paragraph with the text -- `A line of text in a paragraph`. And when you type, you should see the text change!
 
+## Demo
+### CLI command
+
+```
+Microsoft Windows [Version 10.0.22631.3958]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>yarn add slate slate-react
+➤ YN0000: · Yarn 4.4.0
+➤ YN0000: ┌ Resolution step
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Post-resolution validation
+➤ YN0002: │ System32@workspace:. doesn't provide react (p12558), requested by slate-react.
+➤ YN0002: │ System32@workspace:. doesn't provide react-dom (pab5ba), requested by slate-react.
+➤ YN0086: │ Some peer dependencies are incorrectly met by your project; run yarn explain peer-requirements <hash> for details, where <hash> is the six-letter p-prefixed code.
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Fetch step
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Link step
+➤ YN0000: │ ESM support for PnP uses the experimental loader API and is therefore experimental
+➤ YN0000: └ Completed
+➤ YN0000: · Done with warnings in 0s 98ms
+
+C:\Windows\System32>yarn add react react-dom
+➤ YN0000: · Yarn 4.4.0
+➤ YN0000: ┌ Resolution step
+➤ YN0085: │ + react-dom@npm:18.3.1, react@npm:18.3.1, js-tokens@npm:4.0.0, loose-envify@npm:1.4.0, and 1 more.
+➤ YN0000: └ Completed in 2s 2ms
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ 5 packages were added to the project (+ 4.73 MiB).
+➤ YN0000: └ Completed in 9s 899ms
+➤ YN0000: ┌ Link step
+➤ YN0000: │ ESM support for PnP uses the experimental loader API and is therefore experimental
+➤ YN0000: └ Completed
+➤ YN0000: · Done with warnings in 11s 964ms
+
+C:\Windows\System32>yarn add slate
+➤ YN0000: · Yarn 4.4.0
+➤ YN0000: ┌ Resolution step
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Fetch step
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Link step
+➤ YN0000: │ ESM support for PnP uses the experimental loader API and is therefore experimental
+➤ YN0000: └ Completed
+➤ YN0000: · Done with warnings in 0s 97ms
+
+C:\Windows\System32>
+```
