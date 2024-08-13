@@ -10,7 +10,7 @@ It is often used in
 + Dropbox Paper
   
 ## Installation
-No installation
+No need to download and install.
 
 ## [Why to create Slate?](https://docs.slatejs.org/#why)
 + The editor's "schema" was hardcoded and hard to customize.
@@ -32,9 +32,18 @@ Slate tries to solve the question of `Why to create Slate?` with a few principle
 + Collaboration-ready data model.
 + Clear "core" boundaries.
 
-
 ## Startup
 
 > [!CAUTION]
 > Slate is currently in beta. Its core API is usable now, but you might need to pull request fixes for advanced use cases.
 > Some of its APIs are not "finalized" and will (breaking) change over time as we find better solutions.
+
+To write your first rich text with Slate. Follow these steps.
+
+1. Go to [Example - richtext of Slate](https://www.slatejs.org/examples/richtext)
+2. Type your text in the text box and use the menu bar to modify the style of text.
+
+> [!NOTE]
+> Menu bar is on the top of text box.
+>
+> ![image](https://github.com/user-attachments/assets/11337ece-f117-4dd2-b189-0728c222f143)
