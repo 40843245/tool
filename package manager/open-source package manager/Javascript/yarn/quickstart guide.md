@@ -7,13 +7,23 @@ yarn is an established open-source package manager used to manage dependencies i
 > [!Tip]
 > The preferred way to manage yarn is by-project and through `Corepack`[^1], a tool shipped by default with Node.js. Modern releases of yarn aren't meant to be installed globally, or from npm.
 
-1. To start by enabling `Corepack`[^1], if it isn't already; this will add the yarn binary to your environment variable `PATH`. Run these commands.
-
+1. To start by enabling `Corepack`[^1], if it isn't already; this will add the yarn binary to your environment variable `PATH`. Run these commands with `administrator permission`. 
 
 ```
 corepack enable
 ```
 
+> [!CAUTION]
+> Open the terminal with `administrator permission`.
+>
+> Otherwise, you will see a strange error -- EPERM
+>
+> ```
+> Internal Error: EPERM: operation not permitted, open 'C:\Program Files\nodejs\pnpm'
+> Error: EPERM: operation not permitted, open 'C:\Program Files\nodejs\pnpm'
+> ```
+
+> Look like this
 2. To initialize a new project. Run these commands.
 
 ```
