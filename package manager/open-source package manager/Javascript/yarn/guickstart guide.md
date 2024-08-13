@@ -59,5 +59,13 @@ yarn set version from sources
 > yarn set version from sources --branch 1211
 > ```
 
+> [!WARNING]
+> Unlike the stable and canary channels,
+>
+> `yarn set version from sources` command can't leverage `Corepack`[^1] and
+>
+> it will need to store the yarn binary inside the `.yarn/releases` folder and reference it from your project's `.yarnrc.yml` file.
+
+
 [^1]: [`Corepack`](https://yarnpkg.com/corepack)
 
