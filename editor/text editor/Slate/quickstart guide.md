@@ -47,3 +47,6 @@ To write your first rich text with Slate. Follow these steps.
 > Menu bar is on the top of text box.
 >
 > ![image](https://github.com/user-attachments/assets/11337ece-f117-4dd2-b189-0728c222f143)
+
+## Syntax
+See [syntax in Slate (My notes at Github)](https://github.com/40843245/tool/tree/main/editor/text%20editor/Slate)
