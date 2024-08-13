@@ -144,3 +144,4 @@ const App = () => {
 6. That's done.
 
 You can see a paragraph with the text -- `A line of text in a paragraph`. And when you type, you should see the text change!
+
