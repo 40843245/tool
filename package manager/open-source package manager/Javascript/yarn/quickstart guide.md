@@ -16,14 +16,15 @@ corepack enable
 > [!CAUTION]
 > Open the terminal with `administrator permission`.
 >
-> Otherwise, you will see a strange error -- EPERM
+> Otherwise, you will see a strange error -- EPERM.
+>
+> Look like this.
 >
 > ```
 > Internal Error: EPERM: operation not permitted, open 'C:\Program Files\nodejs\pnpm'
 > Error: EPERM: operation not permitted, open 'C:\Program Files\nodejs\pnpm'
 > ```
 
-> Look like this
 2. To initialize a new project. Run these commands.
 
 ```
