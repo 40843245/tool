@@ -38,4 +38,4 @@ After installation,
 
 [^1]: [Xtext Download Page](https://eclipse.dev/Xtext/download.html)
 
-[^2] [Eclipse Download Page](https://www.eclipse.org/downloads/)
+[^2]: [Eclipse Download Page](https://www.eclipse.org/downloads/)
