@@ -21,7 +21,7 @@ Since manim can be considered as a Python library, it can be installed locally w
 ### using manim via Docker[^2]
 Install the docker image which is maintained by the community `manimcommunity/mani`.
 
-### interactive Jupyter notebooks for your browser
+### interactive Jupyter notebooks for your browser[^3]
 
 [^1]: [installing manim locally](https://docs.manim.community/en/stable/installation.html#installing-manim-locally)
 
