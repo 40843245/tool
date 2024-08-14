@@ -25,12 +25,15 @@ Either
      
   > [!NOTE]
   > If you don't have Eclipse, you can download it from Eclipse Download Page[^2] (,or visit Xtext Download Page[^1] then click `Download Eclipse` button, finally you will redirect to Eclipse Download Page[^2]).
-  
+
++ Manually download `Xtext` plugin[^3], then do some configuration about it. Including
+  - setting system environment variable `$PATH` to the location of `Xtext` plugin.
+  - configuring some setting about your favorite IDE (i.e. IDE that you will use `Xtext`).
+    
 ## create a new Xtext project
 
 After installation, 
 
-## syntax
 
 ## See also
 ### Book
@@ -39,3 +42,5 @@ After installation,
 [^1]: [Xtext Download Page](https://eclipse.dev/Xtext/download.html)
 
 [^2]: [Eclipse Download Page](https://www.eclipse.org/downloads/)
+
+[^3]: [`Xtext` SDK on Eclipse (Github page)](https://github.com/eclipse/xtext)
