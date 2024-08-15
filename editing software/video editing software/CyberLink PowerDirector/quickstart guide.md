@@ -1,4 +1,5 @@
 # CyberLink PowerDirector
+## intro
 `CyberLink PowerDirector` is a video editing app with strong fuctionalities. One can 
 + import media and folder
 + create a 2D or 3D text
