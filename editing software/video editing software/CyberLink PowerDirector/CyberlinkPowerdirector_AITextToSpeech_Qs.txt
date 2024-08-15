@@ -1,0 +1,474 @@
+/*
+Play with Search GPT (free version)
+*/
+===============================================
+
+/*
+Programming language
+*/
+
+-----------------------------------------------
+-----------------------------------------------
+
+/* 
+Basic Syntax 
+*/
+
+Print "Hello World" in C
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Print "Hello World" in C++
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Print "Hello World" in C#
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Print "Hello World" in Javascript
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Print "Hello World" in Java
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Print "Hello World" in html
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Print "Hello World" in Python
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Print "Hello World" in MatLab
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Print "Hello World" in SQL
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Print "Hello World" in Go
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Print "Hello World" in Perl
+
+
+
+-----------------------------------------------
+
+/* 
+Qs about function in Python.
+*/
+
+Get the number of elements of list in Python.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Get the length of string in Python.
+
+-----------------------------------------------
+
+/* 
+SQL syntax
+*/
+
+How to select all company in Taiwan that has more than or equal to 10000 employees in SQL?
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+How to select all company in Taiwan that has more than or equal to 10000 employees?
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+How to select all products in company "NiceCompany" that product sale is greater than or equal to 1000 in SQL?
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+How to select all products that "NiceCompany" sale is greater than or equal to 1000?
+
+
+
+-----------------------------------------------
+
+/* 
+deep learning with MatLab.
+*/
+
+How to use deep learning with MatLab?
+
+
+===============================================
+
+/* 
+Words definition and comparison between two products.
+*/
+
+-----------------------------------------------
+-----------------------------------------------
+
+/* 
+OOP
+*/
+
+What is OOP?
+
+
+-----------------------------------------------
+
+/* 
+math
+*/
+
+What is math?
+
+
+
+-----------------------------------------------
+
+/* 
+About AI
+*/
+
+What is deep learning?
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is AI?
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is chatGPT? 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is Gemini?
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What are pros and cons of chatGPT than Gemini?
+
+
+===============================================
+
+/* 
+daily life
+*/
+
+-----------------------------------------------
+-----------------------------------------------
+
+What's the weather today in Xizhi District in Taiwan?
+
+
+-----------------------------------------------
+-----------------------------------------------
+
+Open the map where points to New Taipei City in Taiwan.
+
+
+-----------------------------------------------
+-----------------------------------------------
+
+Open Microsoft Edge.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Open Google chrome.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Open Google chrome and search "魔法少女神奇彩虹".
+
+
+===============================================
+
+/* 
+YouTuber and VTuber
+*/
+
+-----------------------------------------------
+-----------------------------------------------
+
+/* 
+Words definition
+*/
+
+What is YouTuber?
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is VTuber?
+
+
+-----------------------------------------------
+
+/* 
+"三星娜娜".
+
+I will ask Gemini these Qs to understand 
++ How does Gemini answer about a VTuber that it may not have heard before?
++ If I give some infos about the VTuber. How does Gemini answer about the VTuber?
++ Does Gemin remember the answer of previous Q of infos that I gave in previous Q?
+
+*/
+
+-----------------------------------------------
+
+
+Who is "三星娜娜" in VTuber?
+
+
+-----------------------------------------------
+
+「前風俗娘」三星ナナミ台灣爆紅登訂閱成長首榜
+三星ナナミ是一位早已在 2021 年 5 月就出道的 VTuber，又怎麼會如此暴紅呢？其最大的原因就是台灣的 VTuber 烤肉 Men 們，翻譯三星ナナミ的影片在台灣社群中因為演算法而引起關注，並且開始受到大量的推廣與瘋傳。
+由於三星ナナミ本身過去曾經當過風俗娘（基本上就是色情行業），所以經常會在直播中分享各種過去親身經歷過的趣聞，像是遇過客人最和最小的尺寸、風俗店那些風俗娘碰不得、風俗店中性病的機率、工作時遇到熟人等，雜談穩健的風格與獨特的題材內容吸引到不少台灣觀眾注目。
+Who is "三星娜娜" in VTuber?
+
+
+-----------------------------------------------
+
+Who is "三星娜娜" in VTuber?
+
+
+===============================================
+
+/* 
+Japanese anime (日本動畫) or Japanese animation (日本動漫). And some specific of them that has published on YT.
+*/
+
+-----------------------------------------------
+-----------------------------------------------
+
+/*
+Words definition
+*/
+
+-----------------------------------------------
+
+What is Japanese anime?
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is Japanese animation?
+
+
+-----------------------------------------------
+
+/*
+Words comparison
+*/
+
+What is the difference between Japanese anime and Japanese animation?
+
+
+-----------------------------------------------
+-----------------------------------------------
+
+/*
+魔法少女神奇彩虹(魔法少女プリズマジカ)(Magical Girls of Amazing Rainbow)
+
+All Info at: inktr.ee/purimaji
+
+*/
+
+-----------------------------------------------
+
+What is "魔法少女神奇彩虹" in YT?
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is "魔法少女プリズマジカ" in YT?
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is "Magical Girls of Amazing Rainbow" in YT?
+
+
+-----------------------------------------------
+
+Who is "阿卡莉" in channel "魔法少女神奇彩虹" YT ?
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Who is "アカリ"  in YT channel "魔法少女プリズマジカ"?
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is "Akari" in YT channel "Magical Girls of Amazing Rainbow"?
+
+
+
+-----------------------------------------------
+
+Positive natural 'Akari', delinquent but intelligent 'Ai' and scared but with Yankee blood 'Midori'.
+One day, three high school girls are scouted as magical girls.
+The three ordinary girls fight against demons and save the world in this beautiful girl fantasy!
+What is "Akari" in YT channel "Magical Girls of Amazing Rainbow"?
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is "Ai" in YT channel "Magical Girls of Amazing Rainbow"?
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is "Midori" in YT channel "Magical Girls of Amazing Rainbow"?
+
+
+-----------------------------------------------
+
+/*
+open Qs
+*/
+
+List 10 different Japanese anime or Japanese animation.
+
+
+-----------------------------------------------
+
+===============================================
+
+/*
+translate these words, phrases or sentences.
+*/
+
+
+-----------------------------------------------
+
+/*
+translate them from english to chinese
+*/
+
+Translate "Sadomasochism" in Chinese.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Translate "AV" in Chinese.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Translate "Magical Girls of Amazing Rainbow" in Chinese.
+
+
+
+-----------------------------------------------
+
+/*
+translate them from english to japanese
+*/
+
+Translate "Sadomasochism" in Japanese.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Translate "AV" in Japanese.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Translate "Magical Girls of Amazing Rainbow" in Japanese.
+
+
+-----------------------------------------------
+
+/*
+translate them from chinese to english
+*/
+
+Translate "受虐狂" in English.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Translate "成人影片" in English.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Translate "魔法少女神奇彩虹" in English.
+
+
+-----------------------------------------------
+
+/*
+translate them from japanese to english
+*/
+
+
+Translate "ドＭ" in English.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Translate "アダルトビ" in English.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Translate "魔法少女プリズマジカ" in English.
+
+
+
+
+-----------------------------------------------
+
+/*
+translate them from chinese to japanese
+*/
+
+Translate "受虐狂" in Japanese.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Translate "成人影片" in Japanese.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Translate "魔法少女神奇彩虹" in Japanese.
+
+---------------------------------------
+
+/*
+translate them from japanese to chinese
+*/
+
+Translate "ドＭ" in Chinese.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Translate "アダルトビ" in Chinese.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Translate "魔法少女プリズマジカ" in Chinese.
+
+-----------------------------------------------
+
+===============================================
