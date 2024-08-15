@@ -34,6 +34,9 @@ yarn add react react-dom
 > [!TIP]
 > Check out the [Using the Bundled Source](https://docs.slatejs.org/walkthroughs/xx-using-the-bundled-source) guide for more information.
 
+### Demo
+See the demo video at YT [How to install Slate?](https://youtu.be/u_uK3vbnUl8)
+
 ## [Startup](https://docs.slatejs.org/walkthroughs/01-installing-slate)
 1. First, you need to import these packages.
 
