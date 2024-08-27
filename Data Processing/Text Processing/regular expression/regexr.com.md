@@ -7,7 +7,9 @@ It can
 
 + match: match the pattern in the text. To do this, just
   1. enter the pattern in textbox which is just under `Expression`.
-     ![image](https://github.com/user-attachments/assets/dc83db4b-c9f4-47cf-bc71-308f6fecdabf)
+
+![image](https://github.com/user-attachments/assets/dc83db4b-c9f4-47cf-bc71-308f6fecdabf)
+     
   2. select `Text` option.
   3. enter the text for match. ![image](https://github.com/user-attachments/assets/f5809531-13eb-4db7-985f-e564440f380c)
 
