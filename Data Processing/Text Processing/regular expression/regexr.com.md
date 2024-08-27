@@ -1,5 +1,5 @@
 # RE
-## regexr.com
+## [regexr.com](https://regexr.com/)
 ### intro
 It is an website about re in JavaScript.
 
@@ -26,5 +26,8 @@ To do this, just select `Explain` option under `Tools` section.
 
      ![image](https://github.com/user-attachments/assets/09ccb28d-79c3-4afe-a77b-027082d6c90c)
 
++ reference: unlike other website. It also has reference (in `Regex References` ) to look at basic knowledge of re.
 
++ cheatsheat: a cheatsheet that lists all characters in re. (P.S. you can also find it in `Regex References`.)
 
++ Commmunity Patterns: list some commonly used patterns. Including: `Password Validation`, `HEX code detection`.
