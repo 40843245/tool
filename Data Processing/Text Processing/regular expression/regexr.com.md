@@ -22,7 +22,9 @@ To do this, just select `Explain` option under `Tools` section.
 + replace: it also can replace the text with pattern. To do this, just
   1. match the text with pattern first.
   2. select `Replace` option under `Tools` section.
-  3. type new text in the textbox which is just under to `Tools` section for replace. ![image](https://github.com/user-attachments/assets/09ccb28d-79c3-4afe-a77b-027082d6c90c)
+  3. type new text in the textbox which is just under to `Tools` section for replace.
+
+     ![image](https://github.com/user-attachments/assets/09ccb28d-79c3-4afe-a77b-027082d6c90c)
 
 
 
