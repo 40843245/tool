@@ -2,6 +2,11 @@
 ## [overview](https://docs.gitbook.com/content-editor/overview)
 GitBook has a powerful block-based editor that allows you to seamlessly create, update, and enhance your content.
 
+## space
+### rename your space name
+#### demo
+For demo, see my YT video - [rename your space name](https://www.youtube.com/watch?v=BrtD9s2uv-0)
+
 ## integration
 ### [build your first integration](https://developer.gitbook.com/integrations/integrations)
 #### [build your first integration with CLI](https://developer.gitbook.com/integrations/integrations#cli-quickstart)
@@ -47,7 +52,7 @@ GitBook currently has the following limits for imported content:
 + The maximum number of pages that can be uploaded in a single import is 20.
 + The maximum number of files (images etc.) that can be uploaded in a single import is 20.
 
-#### steps:
+#### steps
 To import files from local device, follow these steps.
 1. sign in GitBook.
 2. create your GitBook notes.
@@ -61,8 +66,9 @@ To import files from local device, follow these steps.
 7. click `Import file` button.
 8. wait until success.
 
-#### Demo
+#### demo
 About demo, see my YT video - [import files from local device](https://www.youtube.com/watch?v=t96v9beAdeI)
+
 ### Importing via Git Sync
 If you want to import large amounts of content, you can use our Git Sync feature, which has no limitation on the amount of content that can be imported. 
 
