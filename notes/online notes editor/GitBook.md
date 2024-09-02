@@ -47,6 +47,22 @@ GitBook currently has the following limits for imported content:
 + The maximum number of pages that can be uploaded in a single import is 20.
 + The maximum number of files (images etc.) that can be uploaded in a single import is 20.
 
+#### steps:
+To import files from local device, follow these steps.
+1. sign in GitBook.
+2. create your GitBook notes.
+3. in the left panel, under space option, add `+` icon.
+
+![image](https://github.com/user-attachments/assets/076680a9-1ed2-4637-a73b-5cf4a1f6a634)
+
+4. select `Import Content` option.
+5. choose file format you want to import.
+6. select the file from your local device.
+7. click `Import file` button.
+8. wait until success.
+
+#### Demo
+About demo, see my YT video - [import files from local device](https://www.youtube.com/watch?v=t96v9beAdeI)
 ### Importing via Git Sync
 If you want to import large amounts of content, you can use our Git Sync feature, which has no limitation on the amount of content that can be imported. 
 
