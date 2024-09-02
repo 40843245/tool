@@ -12,7 +12,17 @@ To rename your space name, follow these steps.
 5. wait until success.
    
 #### demo
-For demo, see my YT video - [rename your space name](https://www.youtube.com/watch?v=BrtD9s2uv-0)
+For demo, see my YT video - [rename your space name in GitBook](https://www.youtube.com/watch?v=BrtD9s2uv-0)
+
+### delete your space
+To delete your space, follow these steps.
+1. in left panel, under `spaces`, click your space name (the file name without file extension is displayed the space name).
+2. click the `space options` icon (consist of three vertical dots) ![image](https://github.com/user-attachments/assets/1de5dc49-0483-4a8b-bca5-2f8f24e8f6b9)
+3. click `Delete`.
+4. then it will popup window, click `Delete` button again for comfirmation.
+
+#### demo
+for demo, see my YT video - [delete your space in GitBook](https://www.youtube.com/watch?v=QkWfojWRHKc)
 
 ## integration
 ### [build your first integration](https://developer.gitbook.com/integrations/integrations)
