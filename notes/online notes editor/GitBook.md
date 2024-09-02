@@ -2,8 +2,15 @@
 ## [overview](https://docs.gitbook.com/content-editor/overview)
 GitBook has a powerful block-based editor that allows you to seamlessly create, update, and enhance your content.
 
-## space
+## spaces
 ### rename your space name
+To rename your space name, follow these steps.
+1. in left panel, under `spaces`, click your space name (the file name without file extension is displayed the space name).
+2. double click the title of your file.
+3. enter the new name you want.
+4. ***Don't*** forget to click `Edit in change request` button to make it effect.
+5. wait until success.
+   
 #### demo
 For demo, see my YT video - [rename your space name](https://www.youtube.com/watch?v=BrtD9s2uv-0)
 
