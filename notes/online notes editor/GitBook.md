@@ -2,6 +2,25 @@
 ## [overview](https://docs.gitbook.com/content-editor/overview)
 GitBook has a powerful block-based editor that allows you to seamlessly create, update, and enhance your content.
 
+## integration
+### [build your first integration](https://developer.gitbook.com/integrations/integrations)
+#### [build your first integration with CLI](https://developer.gitbook.com/integrations/integrations#cli-quickstart)
+To build your first integration with CLI, follow these steps.
+1. Install the GitBook CLI
+2. Authenticate with your account (with GitBook API token)
+3. Bootstrap your app 
+
+## authentication
+### authenticate with your account with GitBook API token
+To authenticate with your account (with GitBook API token), follow these steps.
+1. create an API token in your GitBook.com in [Developer Settings](app.gitbook.com/account/developer).
+2. add `Create new token` Button.
+3. then run these commands in GitBook CLI.
+
+```
+gitbook auth
+```
+
 ## import
 There are several ways to import.
 
@@ -34,3 +53,17 @@ If you want to import large amounts of content, you can use our Git Sync feature
 To import using Git Sync, you’ll first need to add your content to a GitHub or GitLab repository (or folder if you're using a monorepo setup - as Markdown files). If your current tool does not support Markdown export, various online tools can assist with conversion from other formats, such as PDF, HTML, etc.
 
 Once you’ve set up your Git repository, simply set up a Git Sync integration in your GitBook organization. Be sure to select the direction GitHub -> GitBook when choosing the initial sync direction. 
+
+#### Import files from GitHub
+> [!NOTE]
+> Prequisite:
+>
+> + Github Account
+> + GitLab Account (You can only sign it with your Github account.)
+> + GitHub repos in the account
+
+To import files from GitHub, follow these steps:
+1. [Enable your Git sync](https://docs.gitbook.com/integrations/git-sync/enabling-github-sync)
+2. 
+
+#### Import files from GitLab
