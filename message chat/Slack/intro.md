@@ -1,6 +1,6 @@
 # Slack
 ## intro
-Slack is a kind of message chat. 
+Slack is a kind of message chat and team communication for message chat. 
 
 And it has additional functionalities that other message chat does NOT have. Such as
 
