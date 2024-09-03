@@ -2,6 +2,8 @@
 ## intro
 In GitHub, one can manage repo which can contain files or project.
 
+For some differnces and limitations between GitHub and GitLab, see the table under [intro section in intro.md in GitLab](https://github.com/40843245/tool/blob/main/project%20management/GitLab/intro.md#intro)
+
 ## url
 I only discuss that the url in viewing mode. One can easily to observe format of url in editing mode.
 
@@ -38,4 +40,4 @@ In GitHub, one can know
 
 + The file name is `intro.md` (which indicates markdown language)
 
-
+For url of `GitLab`, see [url section under intro.md in GitLab](https://github.com/40843245/tool/blob/main/project%20management/GitLab/intro.md#url)
