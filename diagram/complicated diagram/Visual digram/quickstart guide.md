@@ -30,3 +30,33 @@ To login visual digram, follow these steps.
 2. On the left panel, select `My Drive`.
 3. Ensure you choose `draft` option.
 4. Click your draft to open it.
+
+### save
+#### save a file 
+1. On the top menu bar.
+2. Select `File`.
+3. Select `Save` option.
+
+#### save as a file 
+1. On the top menu bar.
+2. Select `File`.
+3. Select `Save As` option.
+
+#### autosave a file 
+1. On the top menu bar.
+2. Select `File`.
+3. Select `Autosave` option.
+
+### export
+1. On the top menu bar.
+2. Select `Export`.
+3. Select option according to the file extension you want to export.
+4. Fill in the information about the setting of diagram.
+5. Click `Export` blue button.
+6. Fill in the file name.
+7. Choose a storage (Google Drive or local device)
+
+> [!IMPORTANT]
+> If you choose a storage to local device, it will be saved to download folder in local device.
+>
+> If you choose a storage to Google Drive, it will ask you
