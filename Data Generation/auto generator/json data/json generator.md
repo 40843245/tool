@@ -35,7 +35,15 @@ To generate a json data, follow these steps.
 2. Click the blue `Generate` button.
 
 ## template tags
-### repeat
+The general rules of template tags are
+
++ For all situations,
+1. Template tags invocation must be quotated with the double quotation and inside  the double quotation only contain template tag invocation, can not leave leading space and trailing space and other characters. Otherwise, it will be treated as normal string.
+
+
++ For template tags that are used in array.
+1. The first element (here the docs says first argument) in array must be quotated with double quotation.
+2. The second element (here the docs says second argument) in array is restricted to the template tags.  
 
 ```
 [^1] [json generator (with template tags on left side bar)](https://www.jsongenerator.io/)
