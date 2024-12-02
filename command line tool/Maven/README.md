@@ -137,3 +137,4 @@ For more details about `Maven-Apache`, you can see
 related issue about `Apache-Maven`.
 
 + [`Set the maven local repository location in a pom.xml file?` (stackoverflow)](https://stackoverflow.com/questions/51686612/set-the-maven-local-repository-location-in-a-pom-xml-file)
++ [`Maven dependency not found` (stackoverflow)](https://stackoverflow.com/questions/43535995/maven-dependency-not-found)
