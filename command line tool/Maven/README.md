@@ -82,3 +82,15 @@ mvn archetype:generate -DgroupId=org.yourcompany.project -DartifactId=applicatio
 Maven will obtain a list of all available archetypes, ask you for some configuration, and generate a working project. 
 
 The console will print the output like this: [`create a new project through mvn command.txt`](https://github.com/40843245/tool/blob/main/command%20line%20tool/Maven/attachment/shell/output/create%20a%20new%20project%20through%20mvn%20command.txt)
+
+### simplify the process of creating a project in MVN
+
+You can also simplify your choice by providing a _archetypeArtifactId_ property to pick the archetype in advance. 
+
+For example, `-DarchetypeArtifactId=maven-archetype-webapp` will help you create a Java web app project.
+
+You can also package your MVN project into an archetype for the future use with the following command:
+
+```
+mvn archetype:create-from-project
+```
