@@ -56,6 +56,16 @@ OS name: "mac os x", version: "10.8.5", arch: "x86_64", family: "mac"
 Stated more in [`Installing Apache Maven` (official website)](https://maven.apache.org/install.html)
 
 ## fundamental task
+### look at command help at command prompt
+To look at command help at command prompt, type the following command.
+
+```
+mvn -h
+```
+
+Stated more in [`Running Apache Maven` (official website)](https://maven.apache.org/run.html)
+
+
 ### creating a Project in MVN
 Use `mvn archetype:generate` command to generate a new project.
 
