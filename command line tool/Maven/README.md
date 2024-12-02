@@ -106,7 +106,7 @@ The maven architecture is shown as this figure:
 The `Maven` Command Execution Phases is shown as following figure.
 
 | Phase | Action | 
-------------------
+| --------- | --------- |
 | clean | Delete target directory. |
 | validate | Validate if the project is correct. |
 | compile | Compile source code, classes stored in target/classes. |
