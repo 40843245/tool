@@ -5,7 +5,7 @@
 ## abstract
 In this article, I will simply talk how to download, install, then setup the environment setting. Next, I will discuss how to do some fundamental tasks by `Maven command`. 
 
-Then, I will take a deep dive in the structure of `Maven`.
+Then, I will take a deep dive in the architecture of `Maven`.
 
 Finally, I will simply list and introduce some common `Maven commands`.
 
@@ -94,3 +94,24 @@ You can also package your MVN project into an archetype for the future use with 
 ```
 mvn archetype:create-from-project
 ```
+
+## Maven architecture
+The maven architecture is shown as this figure:
+
+[`architecture of Maven.avif`](https://raw.githubusercontent.com/40843245/tool/refs/heads/main/command%20line%20tool/Maven/attachment/figure/architecture%20of%20Maven.avif)
+
+## Maven commands
+`mvn` command execution is separated into phases. They form the lifecycle of the build.
+
+The `Maven` Command Execution Phases is shown as following figure.
+
+| Phase | Action | 
+------------------
+| clean | Delete target directory. |
+| validate | Validate if the project is correct. |
+| compile | Compile source code, classes stored in target/classes. |
+| test | Run tests. |
+| package | Take the compiled code and package it in its distributable format, e.g. JAR, WAR. |
+| verify | Run any checks to verify the MVN package is valid and meets quality criteria. |
+| install | Install the package into the local repository. |
+| deploy | Copies the final MVN package to the remote repository. |
