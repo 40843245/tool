@@ -14,9 +14,9 @@ Finally, I will simply list and introduce some common `Maven commands`.
 Before downloading, one has to check system requirements. System requirement is shown at [`Downloading Apache Maven 3.9.9` (official website)](https://maven.apache.org/download.cgi?.)
 
 ### download 
-You can download it by click the link in `link` field at [`Downloading Apache Maven 3.9.9` (official website)](https://maven.apache.org/download.cgi?.). Shown as following figure.
+You can download it by click the link in `link` field at [`Downloading Apache Maven 3.9.9` (official website)](https://maven.apache.org/download.cgi?.). 
 
-
+Framed with red box as [this figure](https://github.com/40843245/tool/blob/main/command%20line%20tool/Maven/attachment/figure/Download%20Apache-Maven%20project.png).
 
 ### Creating a Project in MVN
 Use `mvn archetype:generate` command to generate a new project.
