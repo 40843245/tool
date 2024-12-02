@@ -1,6 +1,8 @@
 # Maven 
 ## intro
-`Maven command prompt` is a command line prompt, like `Dos command prompt` in Windows. One can do task simply through the command in `Maven command prompt`. (for convenience, we will call `Maven command prompt` as `Maven` in this article)
+`Apache Maven` is a build automation tool used primarily for Java projects.
+
+`Maven command prompt` is a command line prompt, like `Dos command prompt` in Windows. One can do task simply through the command in `Maven command prompt`. (for convenience, we will call `Maven command prompt` as `Mvn` or `mvn` in this article)
 
 ## abstract
 In this article, I will simply talk how to download, install, then setup the environment setting. Next, I will discuss how to do some fundamental tasks by `Maven command`. 
@@ -115,3 +117,23 @@ The `Maven` Command Execution Phases is shown as following figure.
 | verify | Run any checks to verify the MVN package is valid and meets quality criteria. |
 | install | Install the package into the local repository. |
 | deploy | Copies the final MVN package to the remote repository. |
+
+> [!NOTE]
+> `Maven` Build Commands are declarative
+>
+> Stated in [`Maven Build Commands Are Declarative` section under this article `Maven Commands Cheat Sheet (MVN)`](https://www.jrebel.com/blog/maven-cheat-sheet)
+
+## reference
+### guide reference
+Mainly from [`Maven-Apache project` (official website)](https://maven.apache.org/index.html) and [`Maven Commands Cheat Sheet (MVN)`](https://www.jrebel.com/blog/maven-cheat-sheet)
+
+### further reading
+For more details about `Maven-Apache`, you can see 
+
++ [`Maven-Apache` (Wiki)](https://en.wikipedia.org/wiki/Apache_Maven)
++ [`What is Maven` (official docs)](https://maven.apache.org/what-is-maven.html)
+  
+### see also
+related issue about `Apache-Maven`.
+
++ [`Set the maven local repository location in a pom.xml file?` (stackoverflow)](https://stackoverflow.com/questions/51686612/set-the-maven-local-repository-location-in-a-pom-xml-file)
