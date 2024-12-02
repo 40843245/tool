@@ -63,6 +63,10 @@ To look at command help at command prompt, type the following command.
 mvn -h
 ```
 
+You will see help of all `mvn` commands (including the flag of `mvn` command). The console will output like this:
+
+[`command help through mvn -h.txt`](https://github.com/40843245/tool/blob/main/command%20line%20tool/Maven/attachment/shell/output/command%20help%20through%20mvn%20-h.txt)
+
 Stated more in [`Running Apache Maven` (official website)](https://maven.apache.org/run.html)
 
 
@@ -76,3 +80,5 @@ mvn archetype:generate -DgroupId=org.yourcompany.project -DartifactId=applicatio
 ```
 
 Maven will obtain a list of all available archetypes, ask you for some configuration, and generate a working project. 
+
+The console will print the output like this: [`create a new project through mvn command.txt`](https://github.com/40843245/tool/blob/main/command%20line%20tool/Maven/attachment/shell/output/create%20a%20new%20project%20through%20mvn%20command.txt)
